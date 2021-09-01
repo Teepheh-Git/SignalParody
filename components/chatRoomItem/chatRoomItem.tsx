@@ -1,12 +1,17 @@
 import React from 'react';
 import styles from './styles'
-import {View, Image, Text} from "react-native";
+import {View, Image, Text, Pressable} from "react-native";
 
 const ChatRoomItem = ({chatRoom}) => {
 
     const user = chatRoom.users[1]
+
+    const onPress = () => {
+
+    }
+
     return (
-        <View style={styles.container}>
+        <Pressable onPress={onPress} style={styles.container}>
 
             <Image style={styles.image}
                    source={{uri: user.imageUri}}/>
@@ -25,7 +30,7 @@ const ChatRoomItem = ({chatRoom}) => {
 
                 <Text numberOfLines={1} style={styles.text}> {chatRoom.lastMessage.content}</Text>
             </View>
-        </View>
+        </Pressable>
     );
 };
 
