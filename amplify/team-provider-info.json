@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-signalparody-staging-111201-authRole",
+      "UnauthRoleArn": "arn:aws:iam::144216176388:role/amplify-signalparody-staging-111201-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::144216176388:role/amplify-signalparody-staging-111201-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-signalparody-staging-111201-deployment",
+      "UnauthRoleName": "amplify-signalparody-staging-111201-unauthRole",
+      "StackName": "amplify-signalparody-staging-111201",
+      "StackId": "arn:aws:cloudformation:ca-central-1:144216176388:stack/amplify-signalparody-staging-111201/9918b020-0bde-11ec-b82e-0e9e5871025e",
+      "AmplifyAppId": "d2khdoxt46t547"
+    },
+    "categories": {
+      "auth": {
+        "SignalParody": {}
+      }
+    }
+  }
+}
